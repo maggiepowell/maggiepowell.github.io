@@ -1,5 +1,5 @@
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #000000;
@@ -8,16 +8,17 @@ body {
 
 .jumbotron {
   background-color: #ffffff;
+  border-bottom-style: double;
 }
-/* sticky footer styling */
-.site-footer, .page-wrap:after {
-  height: 142px; 
-}
-.site-footer {
-  background: aliceblue;
-}
-/* https://css-tricks.com/snippets/css/sticky-footer/ */
 
-#giftastic {
-  width: 30%;
+img {
+  width: 50%;
+  margin: 10px;
+}
+
+.grow:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
