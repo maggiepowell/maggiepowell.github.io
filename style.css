@@ -12,7 +12,8 @@ body {
 }
 
 img {
-  width: 50%;
+  width: 280px;
+  height: 202px;
   margin: 10px;
 }
 
@@ -21,4 +22,8 @@ img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.imageButtons {
+  float: left;
 }
