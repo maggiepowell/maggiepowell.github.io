@@ -1,5 +1,5 @@
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #000000;
@@ -10,6 +10,16 @@ body {
   background-color: #ffffff;
   border-bottom-style: double;
   text-align: center;
+}
+
+#maggie-powell {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.btn {
+  background-color: rgb(179, 255, 0);
 }
 
 #portfolio {
