@@ -3,13 +3,31 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #000000;
-  background-color: #ffffff;
+  background-image: url("images/shoreline-of-sand-and-ocean.jpg");
+	height: 50%;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("images/shoreline-of-sand-and-ocean.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron {
-  background-color: #ffffff;
-  border-bottom-style: double;
-  text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+	text-align: center;
+	margin-top: 25%;
 }
 
 #maggie-powell {
@@ -18,11 +36,12 @@ body {
 }
 
 .btn {
-  background-color: rgb(179, 255, 0);
+  background-color: rgba(0, 255, 213, 0.877);
 }
 
 #portfolio {
-  font-weight: bold;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 #resume {
@@ -44,6 +63,7 @@ body {
   float: left;
 }
 
+/* styling for hover with shadow and text */
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
