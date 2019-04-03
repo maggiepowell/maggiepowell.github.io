@@ -21,13 +21,21 @@ body {
   background-size: cover;
 }
 
+.navbar {
+	background-color: rgba(0, 255, 213, 0.877);
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .jumbotron {
 	background-color: rgba(255, 255, 255, 0.5);
 	position: -webkit-sticky;
   position: sticky;
   top: 0;
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 20%;
+	z-index: 1;
 }
 
 #maggie-powell {
@@ -36,7 +44,8 @@ body {
 }
 
 .btn {
-  background-color: rgba(0, 255, 213, 0.877);
+	background-color: rgba(0, 255, 213, 0.877);
+	border-color: rgba(0, 255, 213, 0.877);
 }
 
 #portfolio {
