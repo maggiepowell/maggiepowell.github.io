@@ -67,15 +67,24 @@ body {
   width: 40%;
 }
 
-.project {
-  width: 210px;
-  height: 156px;
-  margin: 10px;
-}
 
 .imageButtons {
   min-height: 300px;
-  float: left;
+	/* float: left; */
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.imageButtons a {
+	flex: 1 1 calc(100% / 3 - 5px);
+	margin-right: 5px;
+}
+.imageButtons a:nth-child(3n) {
+	margin-right: 0;
+}
+.imageButtons img {
+	margin-top: -72% !important;
 }
 
 /* styling for hover with shadow and text */
@@ -89,12 +98,16 @@ body {
 	overflow: hidden;
 	max-width: 100%;
 	height: auto;
+	height: 0;
+	padding: 72% 0 0 0;
 }
 .hvrbox img {
 	max-width: 100%;
+	margin: auto;
 }
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
+	margin: auto;
 }
 .hvrbox .hvrbox-layer_top {
 	opacity: 0;
